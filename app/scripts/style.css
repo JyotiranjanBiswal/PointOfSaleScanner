@@ -1,0 +1,47 @@
+/*
+.main_div{margin: 0 auto;width: 36%;}
+.tooltip_main { position: absolute;width:250px;background-color:#ffaaaa;vertical-align:top; }
+.scanner{ display:inline-block;width:100px;background-color:#aaaaff; vertical-align:top;}
+*/
+.main_div{margin: 0 auto;width: 36%;}
+.tooltip_main { 
+	position: absolute;
+}
+.scanner_main {
+    height: 100%;
+    width: 100%;
+}
+
+.scanner, .result {
+    display: inline;
+    vertical-align: middle;
+}
+
+.scanner_input {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+}
+
+.error{color:red}
+
+.help:hover div.tooltip, .help:active div.tooltip {display: block;}
+.help{position: relative;text-align: center;}
+.help .tooltip{
+    background: none repeat scroll 0 0 #e0efe3;
+    border: 2px solid #a8b8ab;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    color: #444;
+    display: none;
+    font-size: 12px;
+    font-weight: normal;
+    left: 72px;
+    padding: 0 15px 0 20px;
+    position: absolute;
+    text-align: left;
+    top: -12px;
+    white-space: nowrap;
+    z-index: 500;
+}
+.tooltip_name{margin-bottom: 25px;}
