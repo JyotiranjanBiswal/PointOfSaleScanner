@@ -1,3 +1,4 @@
+# Point Of Sale Scanner
 Consider a store where items have prices per unit but also volume prices. For example, apples may be $1.00 each or 4 for $3.00.
 Implement a point-of-sale scanning API that accepts an arbitrary ordering of products (similar to what would happen at a checkout line)
 and then returns the correct total price for an entire shopping cart based on the per unit prices or the volume prices as applicable.
